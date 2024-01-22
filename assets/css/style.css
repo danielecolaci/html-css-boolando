@@ -70,7 +70,6 @@ main {
     position: relative;
 }
 
-
 .box {
     padding: 8px 10px;
     color: white;
@@ -122,6 +121,24 @@ h2 {
     font-size: 14px;
 }
 
+.card-img>img {
+    width: 100%;
+}
+
+.card-img {
+    position: relative;
+    width: 380px;
+}
+
+.first-img:hover {
+    opacity: 0;
+}
+
+.first-img {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
 
 /* Footer */
 
