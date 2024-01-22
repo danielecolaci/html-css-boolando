@@ -17,7 +17,8 @@ header {
     left: 0;
     right: 0;
     background-color: #FF6900;
-    z-index: 2;
+    z-index: 100;
+    box-shadow: 0 4px 4px #9E9E9E;
 }
 
 .flex-header {
@@ -75,6 +76,9 @@ main {
     color: white;
     font-size: 14px;
     font-weight: bold;
+    position: absolute;
+    z-index: 20;
+    bottom: 42px;
 }
 
 .sconto {
@@ -83,11 +87,20 @@ main {
 
 .sost {
     background-color: #008000;
+    left: 56px;
+}
+
+.sost2 {
+    background-color: #008000;
 }
 
 .fav {
     background-color: white;
     padding: 10px;
+    position: absolute;
+    z-index: 20;
+    top: 10px;
+    right: 0;
 }
 
 .fav a {
@@ -146,7 +159,7 @@ footer {
     color: white;
     background-color: #1a1a1a;
     height: 110px;
-    margin-top: 50px;
+    padding-top: 30px;
 }
 
 .flex-footer {
@@ -164,4 +177,13 @@ footer {
 
 .footer-list a {
     font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.first {
+    font-size: 13px;
 }
